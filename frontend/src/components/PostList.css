@@ -1,0 +1,65 @@
+.post-list-container {
+    padding: 20px;
+}
+
+.post-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative; /* For positioning the action icons */
+}
+
+.post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+    
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 40%);
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute; /* Positioning the actions within the post item */
+    right: 15px;
+    bottom: 15px;
+}
+
+
+
+.post-action-link,
+.post-action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.post-action-link {
+    color: #007bff;
+}
+
+.post-action-button {
+    color: #e74c3c;
+}
+
+.post-action-link:hover {
+    color: #131312; /* Black color for edit button on hover */
+}
+
+.post-action-button:hover {
+    color: #131312; /* black color for delete button on hover */
+}

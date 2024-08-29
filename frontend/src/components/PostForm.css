@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #444;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+  }
+  
+  nav a:hover {
+    background: #555;
+  }
+  
+  /* Forms */
+  form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  /* Post List */
+  .post-list {
+    margin: 2rem 0;
+  }
+  
+  .post-list h1 {
+    text-align: center;
+  }
+  
+  .post-list .post-item {
+    background: #fff;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-list .post-item h2 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .post-list .post-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .post-list .post-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Post Detail */
+  .post-detail {
+    margin: 2rem 0;
+  }
+  
+  .post-detail h1 {
+    text-align: center;
+  }
+  
+  .post-detail p {
+    margin: 1rem 0;
+  }
+  
+  .post-detail .actions {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .post-detail .actions a, .post-detail .actions button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .post-detail .actions a:hover, .post-detail .actions button:hover {
+    background: #555;
+  }
+  
+  /* Edit Post */
+  .edit-post {
+    margin: 2rem 0;
+  }
+  
+  .edit-post h1 {
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+  
+    form {
+        padding: 1.5rem;
+    }
+  
+    nav a {
+        padding: 0.5rem;
+        margin: 0 0.25rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header, .post-list, .post-detail {
+        padding: 1rem;
+    }
+  
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+  
+    form {
+        padding: 1rem;
+    }
+  
+    form input, form textarea, form button {
+        padding: 0.5rem;
+    }
+  
+    .post-list .post-item {
+        margin: 0.5rem 0;
+    }
+  
+    .post-detail .actions a, .post-detail .actions button {
+        display: block;
+        margin: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+  
+    header {
+        font-size: 1rem;
+    }
+  
+    form input, form textarea, form button {
+        padding: 0.5rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
