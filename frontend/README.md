@@ -60,11 +60,10 @@ Please Connect Every time  MongoDB Atlas Current IP Address
 For a demonstration of the application in action, watch the video below:
 
 Google Drive Code Output Video---
+ 
+ see full video for better understanding. 
 
-
-https://drive.google.com/file/d/1O-J8sSyyVzsyFEMTCLzolxTDEDBSegWe/view?usp=sharing  
-
-
+https://drive.google.com/file/d/1kviOFK61iF1wN7gzSn7Ss0C0uY4Aj8Sx/view?usp=sharing 
 
 Thank you for checking out my blogging platform project!
 

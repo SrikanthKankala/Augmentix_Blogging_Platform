@@ -32,7 +32,7 @@ mongoose.connect(URI, {
 
 // Root route handler
 app.get('/', (req, res) => {
-  res.send('Welcome to the Blog API!');
+  res.send('Welcome to the Augmentix Post Blogging Plotform!');
 });
 
 // Routes

@@ -36,6 +36,25 @@
     margin-bottom: 20px;
 }
 
+.back-to-posts-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-posts-link:hover {
+    background-color: green; 
+}
+
+
 /* Styling for action buttons */
 .post-actions button,
 .post-actions a {
@@ -49,29 +68,19 @@
 }
 
 .post-actions button {
-    background-color: #e74c3c; /* Red background for delete button */
+    background-color: #e74c3c; 
 }
 
 .post-actions a {
-    background-color: #007bff; /* Blue background for edit link */
+    background-color: #007bff; 
     text-align: center;
 }
 
 .post-actions a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 
-/* Back to Posts link */
-.back-to-posts-link {
-    display: inline-block;
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-}
 
-.back-to-posts-link:hover {
-    text-decoration: underline;
-}
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
