@@ -38,6 +38,8 @@ Google Drive Code Output Video---
 
 https://drive.google.com/file/d/1kviOFK61iF1wN7gzSn7Ss0C0uY4Aj8Sx/view?usp=sharing
 
+### website 
+https://augmentix-blogging-platform.vercel.app/ 
 
 
 ## Features
